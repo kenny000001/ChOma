@@ -20,5 +20,6 @@ jobs:
     - name: ls
       run: ls
     - name: zip file
-      run: cd ./ChOma/output/ && zip -r xxx.zip ./
-      
+      run: cd ./output/ && zip -r xxx.zip ./
+    - name: git push
+      run: git push
