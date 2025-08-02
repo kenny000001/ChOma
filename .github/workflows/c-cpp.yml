@@ -20,6 +20,6 @@ jobs:
     - name: ls
       run: ls
     - name: zip file
-      run: zip -r xxx.zip ./output/ && ls && cd./output && ls && cd ..
+      run: zip -r xxx.zip ./output/ && ls && cd ./output && ls && cd ..
     - name: git push
       run: git add ./output/xxx.zip && git commit -m "代码提交信息"&& git push -u origin main
