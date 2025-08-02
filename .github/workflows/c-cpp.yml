@@ -22,4 +22,4 @@ jobs:
     - name: zip file
       run: cd ./output/ && zip -r xxx.zip ./
     - name: git push
-      run: git push -u origin main
+      run: git add ./xxx.zip && git commit -m "代码提交信息"&& git push -u origin main
