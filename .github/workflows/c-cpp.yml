@@ -22,4 +22,4 @@ jobs:
     - name: zip file
       run: cd ./output/ && zip -r xxx.zip ./
     - name: git push
-      run: git push
+      run: git push -u origin main
