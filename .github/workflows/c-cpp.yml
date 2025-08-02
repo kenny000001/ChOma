@@ -13,7 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-
+    - name: ldid install
+      run: brew install ldid
     - name: make
       run: make TARGET=ios
     - name: make check
